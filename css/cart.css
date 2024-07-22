@@ -1,0 +1,122 @@
+.cart-header{
+		height: 44px;
+		border-bottom: 0.5px solid gray;
+		font-size: 15px;
+	}
+	.cart-body{
+		height: 866px;
+
+		overflow: auto;
+
+	}
+	.cart-img, .cart-content, .cart-final{
+		border: 1px solid;
+		float:left;
+		padding: 15px;
+	}
+	.cart-img{
+		width: 20%;
+	}
+	.cart-content{
+		width: 40%;
+	}
+	.cart-final{
+		width: 40%;
+	}
+   .img-back
+    {
+        width: 25px;
+        height: 25px;
+        float:left;
+        background: url(../img/back.png);
+    }
+    .img-back:hover
+    {
+            background: url(../img/back-hover.png);
+    }
+    .img-clear-cart{
+    	width: 25px;
+        height: 25px;
+        float:left;
+        background: url(../img/clear-cart.png);
+    }
+    .img-clear-cart:hover
+    {
+            background: url(../img/clear-cart-hover.png);
+    }
+     .img-cash-cart{
+    	width: 25px;
+        height: 25px;
+        float:left;
+        background: url(../img/cash.png);
+    }
+     .img-cash-cart:hover
+    {
+            background: url(../img/cash-hover.png);
+    }
+    .cart-btn, .cart-btn-capnhat{
+    	margin: 2px;
+    	padding-top: 7px;
+        padding-bottom: 5px;
+        width: 10%;
+        float:left;
+        background-color: #00d2d2;
+        border-radius: 4px;
+    }
+    .cart-btn a{
+    	text-decoration: none;
+    	color:white;
+    }
+     .cart-btn div{
+    	margin-left: 15px;
+    	margin-right: 1px;
+    }
+    .cart-header-label{
+    	float: left;
+    	padding-top: 15px;
+    	text-align: right;
+    }
+    .cart-btn:hover{
+    	opacity: 0.8;
+    }
+    .cart-btn-capnhat:hover{
+    	background-color: red;
+
+    }
+    table, th, td {
+
+
+    border-collapse: collapse;
+    text-align: center;
+    color: black;
+    font-size: 17px;
+
+	}
+	th{
+		background-color: rgb(255, 186, 89);
+		color: white;
+		opacity: 0.9;
+
+	}
+	td{
+			border-top:1px solid gray;
+    	border-bottom: 1px solid gray;
+		font-family: consolas;
+		font-weight: bolder;
+		opacity: 0.8;
+		height: 100px;
+	}
+	tr{
+		background-color: white;
+	}
+	tr:hover{
+		background-color: gray;
+		color: white;
+		opacity: 0.9;
+	}
+
+	table{
+		width: 100%;
+		margin: auto;
+		margin-bottom: 1px;
+	}

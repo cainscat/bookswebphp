@@ -1,0 +1,150 @@
+
+.div-panel
+{
+    text-align: center;
+    background-color: rgb(255, 186, 89);
+    color: rgb(255, 0, 0);
+    padding-top:4px;
+    opacity: 1;
+
+}
+.div-body-panel
+{
+   height:911px;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+}
+
+    .btn:hover
+    {
+        background-color: black;
+    }
+    .btn:hover
+    {
+        background-color: black;
+    }
+    body{
+        background-color: gainsboro;
+    }
+    #body-content{
+        width: 100%;
+        margin: auto;
+        overflow: auto;
+
+    }
+    #header{
+        background-color: #444444;
+    }
+     #content{
+        clear:both;
+        overflow:auto;
+        background-color: #99CCFF ;
+    }
+    #footer{
+        clear: both;
+        width:100%;
+        float: left;
+        background-color: #ffffff;
+        background: url(../img/footer.png);
+
+    }
+
+    .index-leftmenu{
+        padding-top: 20px;
+        border-right: 1px solid white;
+        float:left;
+        width: 16.60%;
+        background-color: #444444 ;
+        height: 1000px;
+
+    }
+    .index-rightmenu{
+        float:left;
+        width: 83.40%;
+
+    }
+
+    .index-cart{
+
+        padding: 5px;
+        width:80%;
+        float:left;
+
+    }
+    .index-top{
+        background-color: #444444 ;
+        overflow: auto;
+        color:white;
+    }
+    .index-status{
+        padding: 5px;
+        border-left: 1px solid white;
+        width: 20%;
+        height: 55px;
+        float:left;
+        text-align: center;
+    }
+    ul{
+        padding:0px;
+
+    }
+    li{
+
+        padding: 10px;
+    }
+    li a{
+        text-decoration: none;
+        padding: 5px;
+        color:white;
+    }
+    li:hover{
+
+    background-color:rgb(255, 200, 123);
+}
+    .tai-khoan-menu
+    {
+
+       border-right: 1px solid white;
+       float:left;
+       overflow:auto;
+            height:914px;
+            width: 16.60%;
+            background-color: #444444 ;
+
+    }
+    .status-time{
+        color:black;
+        font-weight: bold;
+        text-align: right;
+        padding: 5px;
+        font-size: 12px;
+    }
+    .header-banner
+    {
+
+        width: 100%;
+        height: 400px;
+    }
+    .header-menu
+    {
+
+        width: 100%;
+        text-align: center;
+    }
+    .header-menu div{
+        padding-top: 7px;
+        padding-bottom: 5px;
+        width: 20%;
+        float:left;
+        background-color: rgb(255, 182, 36);
+        opacity: 0.9;
+
+    }
+    .header-menu div a{
+        text-decoration: none;
+        color:white;
+    }
+    .header-menu div:hover{
+        background-color: gray;
+
+    }
